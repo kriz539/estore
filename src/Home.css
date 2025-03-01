@@ -1,0 +1,79 @@
+#nav2{
+    
+    display: flex;
+    justify-content:space-around;
+    width: 50%;
+    align-items: center;
+}
+#nav1{
+    display: flex;
+    justify-content: start;
+   
+    width: 50%;
+    align-items: center;
+}
+#navbar{
+   display: flex;
+   justify-content:space-evenly;
+   background-color: aquamarine;
+   border: 3px solid black;
+   border-radius: 10px;
+   border-style: outset;
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 6px 6px 0px black;
+    background-color:aquamarine;
+    width: 300px;
+    object-fit: cover;
+
+}
+.card:hover{
+    border: none;
+    box-shadow: 0px 0px 15px black,0px 0px 45px black,0px 0px 100px black,0px 0px 130px rgb(23, 22, 22);
+}
+#cards{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+#colors{
+    display: flex;
+    align-items: center;
+}
+.colors1{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: 5px;
+}
+.colors2{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(12, 36, 223);
+    margin: 5px;
+}
+.colors3{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color:rgb(251, 5, 5);
+    margin: 5px;
+}
+body{
+    background-color: antiquewhite;
+}
